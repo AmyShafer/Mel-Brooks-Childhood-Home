@@ -15,21 +15,42 @@ a {
   font-family: 'Asap', sans-serif;
   color: blue;
   text-align: right;
+  font-size: 2em;
 }
 
 a:hover {
   display: inline-block;
   font-family: 'Asap', sans-serif;
   color: blueviolet;
+  font-size: 2em;
 }
 
 h1 {
   display: flex;
   flex-direction: row;
-  margin: 20px auto 10px auto;
+  padding: 30px;
   font-family: 'Bakbak One', cursive;
   font-size: 2.2em;
   justify-content: center;
+  background-color: darkblue;
+  color: bisque;
+  text-shadow: 0 -2px 8px #bd09eb, 0 2px 8px #0000FF;
+}
+
+  #topToPictures > a {
+  font-family: 'Bakbak One', cursive;
+  color: bisque;
+  font-size: 1em;
+  text-decoration: none;
+  text-shadow: 0 -2px 8px #bd09eb, 0 2px 8px #0000FF;
+}
+
+  #topToPictures > a:hover {
+  font-family: 'Bakbak One', cursive;
+  font-size: 1em;
+  text-decoration: none;
+  color: bisque;
+  text-shadow: 0 -2px 8px #bd09eb, 0 2px 8px #0000FF;
 }
 
 p {
@@ -51,7 +72,7 @@ p {
   justify-content: flex-end;
   margin-right: 105px;
   margin-bottom: 10px;
-  font-size: 1.1em;
+  font-size: 1.5em;
   font-weight: 600;
   line-height: 2em;  
 }
