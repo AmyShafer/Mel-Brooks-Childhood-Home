@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background-color: lightyellow;
+}
+
+a {
+  display: inline-block;
+  font-family: 'Asap', sans-serif;
+  color: blue;
+  text-align: right;
+}
+
+a:hover {
+  display: inline-block;
+  font-family: 'Asap', sans-serif;
+  color: blueviolet;
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto 10px auto;
+  font-family: 'Bakbak One', cursive;
+  font-size: 2.2em;
+  justify-content: center;
+}
+
+p {
+  display: inline-block;
+  margin: 15px auto 15px auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  justify-content: center;
+  text-align: left;
+  font-family: 'Asap', sans-serif;
+  font-size: 1.1em;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60%;
+  padding-top: 0;
+  padding-left: 20px;
+  font-family: 'Itim', cursive;
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+h4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 60%;
+  padding-left: 20px;
+  font-family: 'Courgette', cursive;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 2em;
+}
+
+#pictureOne,
+#pictureTwo,
+#pictureThree,
+#pictureFour,
+#pictureFive {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0 5px 0;
+  width: 380px;
+  height: 470px;
+  border-radius: 15%;
+}
+
+#landscape {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0 5px 0;
+  width: 470px;
+  height: 380px;
+  border-radius: 15%;     
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding: 50px;  
+  width: 100%;
+  font-family: 'Courgette', cursive;
+  background-color: darkblue;
+  color: bisque;
+  justify-content: center;
+  text-align: center;
+}
+
