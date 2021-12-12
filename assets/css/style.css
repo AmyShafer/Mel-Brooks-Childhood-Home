@@ -45,6 +45,17 @@ p {
   line-height: 1.5em;
 }
 
+.signed {
+  display: flex;
+  font-family: 'Courgette', cursive;
+  justify-content: flex-end;
+  margin-right: 105px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 2em;  
+}
+
 .pictures {
   display: flex;
   flex-wrap: wrap;
