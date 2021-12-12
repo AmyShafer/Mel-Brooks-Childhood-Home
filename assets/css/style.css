@@ -15,14 +15,14 @@ a {
   font-family: 'Asap', sans-serif;
   color: blue;
   text-align: right;
-  font-size: 2em;
+  font-size: 1.4em;
 }
 
 a:hover {
   display: inline-block;
   font-family: 'Asap', sans-serif;
   color: blueviolet;
-  font-size: 2em;
+  font-size: 1.4em;
 }
 
 h1 {
@@ -32,30 +32,13 @@ h1 {
   font-family: 'Bakbak One', cursive;
   font-size: 2.2em;
   justify-content: center;
-  background-color: darkblue;
-  color: bisque;
-  text-shadow: 0 -2px 8px #bd09eb, 0 2px 8px #0000FF;
-}
-
-  #topToPictures > a {
-  font-family: 'Bakbak One', cursive;
-  color: bisque;
-  font-size: 1em;
-  text-decoration: none;
-  text-shadow: 0 -2px 8px #bd09eb, 0 2px 8px #0000FF;
-}
-
-  #topToPictures > a:hover {
-  font-family: 'Bakbak One', cursive;
-  font-size: 1em;
-  text-decoration: none;
-  color: bisque;
-  text-shadow: 0 -2px 8px #bd09eb, 0 2px 8px #0000FF;
+  color: black;
+  text-shadow: 0 -2px 5px #bd09eb, 0 2px 4px #0000FF;
 }
 
 p {
   display: inline-block;
-  margin: 15px auto 15px auto;
+  margin: 15px;
   padding-left: 40px;
   padding-right: 40px;
   justify-content: center;
@@ -82,14 +65,15 @@ p {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-}
+  width: 700px;
+}  
 
 h2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 60%;
+  width: 100%;
   padding-top: 0;
   padding-left: 20px;
   font-family: 'Itim', cursive;
@@ -102,7 +86,7 @@ h4 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 60%;
+  width: 100%;
   padding-left: 20px;
   font-family: 'Courgette', cursive;
   font-size: 1.1em;
@@ -116,8 +100,8 @@ h4 {
 #pictureFour,
 #pictureFive {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
 }
@@ -127,7 +111,7 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px 0 5px 0;
+  padding: 20px 10px 5px 10px;
   width: 380px;
   height: 470px;
   border-radius: 15%;
@@ -138,10 +122,47 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px 0 5px 0;
+  padding: 20px 10px 5px 10px;
   width: 470px;
   height: 380px;
   border-radius: 15%;     
+}
+
+#contactMe {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  width: 100%;
+}
+
+#contactSpots {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+  font-family: 'Bakbak One', cursive;
+  font-size: 2em;
+  color: black;
+  text-shadow: 0 -2px 5px #bd09eb, 0 2px 4px #0000FF;
+}
+
+#contactMe ul li {
+  margin: 10px;
+  padding: 10px;
+  list-style-type: none;
+  display: inline;
+  justify-content: flex-end;
+}
+
+ul li a {
+  font-family: 'Courgette', cursive;
+  color: darkblue;
+  justify-content: flex-end;
+}
+
+ul li a:hover {
+  font-family: 'Courgette', cursive;
+  color: darkviolet;
+  justify-content: flex-end;
 }
 
 footer {
@@ -157,4 +178,17 @@ footer {
   justify-content: center;
   text-align: center;
 }
+
+@media screen and (max-width: 992px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+}
+
 
